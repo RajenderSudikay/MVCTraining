@@ -25,5 +25,6 @@ namespace MVCTraining
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<User> Users { get; set; }
     }
 }

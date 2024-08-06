@@ -151,6 +151,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TrainingModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>TrainingModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
